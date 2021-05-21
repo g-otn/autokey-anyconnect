@@ -46,7 +46,9 @@ alias disconnect-vpnui='bash ~/.config/autokey/data/vpnui/disconnect-vpnui.sh'
 ```
 
 6. Use the aliases to run the scripts. Example:
-```
+```bash
+# Make sure AnyConnect is closed or its initial focus has not been changed
+# before running the script
 connect-vpnui
 ```
 
