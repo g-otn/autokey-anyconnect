@@ -4,7 +4,7 @@ if ! pgrep "autokey" > /dev/null
 then
     echo "Starting AutoKey...";
     autokey > /dev/null 2>&1 &
-    sleep 0.5 # Needs to be enough for autokey to start, so we can use autokey-run
+    sleep 1 # Needs to be enough for autokey to start, so we can use autokey-run
 fi
 
 
