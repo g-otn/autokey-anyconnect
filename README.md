@@ -4,7 +4,7 @@ AutoKey scripts to automatically connect and disconnect to/from a VPN using AnyC
 ## Notes
 The scripts expects a few things:
 - **"Start VPN when AnyConnect is started" preference is disabled in AnyConnect.**
-- There's a default Group and User, so they're filled automatically by AnyConnect once it tries to connect. Logging in once manually and/or checking the `~/.anyconnect` file may help.
+- There's a default HostName, Group and User, so they're filled automatically by AnyConnect once it tries to connect. Logging in once manually and/or checking the `~/.anyconnect` file may help.
 - That, after logging in, a banner (dialog with some info/warning) will pop up.
 - There's no external change by the user in the current focus of fields/buttons/etc in the UI.
 
